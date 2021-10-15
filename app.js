@@ -1,4 +1,5 @@
 const expres=require("express");
+require("dotenv").config();
 
 const app= expres();
 app.get("/",(req,res)=>{
